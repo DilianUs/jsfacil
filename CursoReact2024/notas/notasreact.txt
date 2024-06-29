@@ -1,0 +1,18 @@
+Formato jsx
+    -puedes añadir expresiones poniendo las constante en {constante}
+        ejemplo:  const name = 'miguel'
+                <h1>Hola , {name}</h1>
+
+    -Puede hacerse llamando funciones
+        const element = <strong> Numero aleatorio. {Math.random()}</strong>
+         quiero que evalues esta expresion, cosas que devuelvan un valor, no declaraciones como los if
+    -Especificar atributos, es similar a html
+        <button tabIndex="1">
+        utiliza camelCase, porque es js no html
+    -evita la inyeccion de codigo, si quiere inyectar un response como 
+    children en una cadena de texto, se queda asi, como cadena de texto.
+
+
+-Para poder utilizar jsx y react utilizaremos   un empaqquetador de apps web,
+    create react app(usa webpack), pero es algo lenta y desactualziada
+    -utilizaremos mejor Vite, es mejor segun midu
