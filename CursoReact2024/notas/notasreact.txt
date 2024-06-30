@@ -16,3 +16,30 @@ Formato jsx
 -Para poder utilizar jsx y react utilizaremos   un empaqquetador de apps web,
     create react app(usa webpack), pero es algo lenta y desactualziada
     -utilizaremos mejor Vite, es mejor segun midu
+swc es mas rapido porque esta hecho en rust
+
+
+Componente en react:
+    -es una funcion que crea un elemento
+        reutilizas codigo 
+        , pero a la funcion no la nombras por lo que hace si no por el nombre del 
+        componente
+
+Estilos de nombramiento
+
+PascalCase-componentes
+camelCase-atributos
+snake_case
+kebab-case 
+
+Separar componentes
+    crear un componente en src
+        el principal es App y la extencion jsx es porque utilizaras jsx
+
+los componentes de react se deben exportar para poder ser importados
+
+Actividad 00-hola-mundo
+
+dentro del componente App, se creará una twitter card
+tiene texto, icono-imagen y un boton que debe cambiar
+
