@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/DilianUs/jsfacil/issues"
   },
-  "homepage": "https://github.com/DilianUs/jsfacil#readme"
+  "homepage": "https://github.com/DilianUs/jsfacil#readme",
+  "devDependencies": {
+    "vite": "^5.3.3"
+  }
 }
